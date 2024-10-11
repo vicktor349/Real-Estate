@@ -14,6 +14,9 @@ const config: Config = {
       },
       borderColor: {
         "linkBorder": "var(--Grey-15, #262626)"
+      },
+      screens: {
+        "3xl": "1736px"
       }
     },
   },
