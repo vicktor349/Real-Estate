@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundColor: {
+        "buttonBackground": "#141414",
+        "linkBackground": "var(--Grey-08, #141414);"
       },
+      borderColor: {
+        "linkBorder": "var(--Grey-15, #262626)"
+      }
     },
   },
   plugins: [],
