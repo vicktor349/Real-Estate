@@ -19,16 +19,16 @@ const Navbar = () => {
                 <p>Estatein</p>
             </div>
             <div className='hidden lg:flex items-center gap-x-10'>
-                <Link href="/" className={`px-7 py-4 border-2 border-transparent rounded-xl flex items-center justify-center ${activeColor('/') ? 'bg-linkBackground border-linkBorder' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
+                <Link href="/" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
                     Home
                 </Link>
-                <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-md flex items-center justify-center'>
+                <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-xl flex items-center justify-center'>
                     About Us
                 </Link>
-                <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-md flex items-center justify-center'>
+                <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-xl flex items-center justify-center'>
                     Properties
                 </Link>
-                <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-md flex items-center justify-center'>
+                <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-xl flex items-center justify-center'>
                     Services
                 </Link>
             </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className='hidden lg:flex items-center justify-center bg-buttonBackground py-4 px-6 rounded-md border-linkBorder border'>
                 <Link href="#">Contact Us</Link>
             </div>
-            <div className="relative w-6 h-6 overflow-hidden" onClick={toggleMenu}>
+            <div className="relative lg:hidden w-6 h-6 overflow-hidden" onClick={toggleMenu}>
                 <div className={`absolute inset-0 transition-transform duration-300 ${isOpen ? 'rotate-180 scale-0' : 'rotate-0 scale-100'}`}>
                     <RxHamburgerMenu className="w-full h-full" />
                 </div>
