@@ -13,7 +13,7 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <div className='flex items-center justify-between text-white navbar py-3 px-5 md:px-8 lg:px-12 xl:px-28 2xl:px-36 3xl:px-40 sticky top-0'>
+        <div className='flex items-center justify-between text-white navbar py-3 px-5 md:px-8 lg:px-12 xl:px-28 2xl:px-36 3xl:px-40 sticky top-0 z-[9999]'>
             <div className='flex items-center space-x-1'>
                 <FaFire color='#703BF7' size={32} />
                 <p>Estatein</p>
