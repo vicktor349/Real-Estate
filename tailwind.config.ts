@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundColor: {
         "buttonBackground": "#141414",
+        "primaryBackground": "var(--Grey-10, #1A1A1A)",
         "linkBackground": "var(--Grey-08, #141414)",
         "background": "var(--Grey-15, #262626)",
         "secondaryButtonBackground": "var(--Purple-60, #703BF7)",
@@ -22,6 +23,9 @@ const config: Config = {
         "3xl": "1736px",
         "ssm": "480px",
         "sssm:": "360px"
+      },
+      boxShadow: {
+        "shadow": "0px 0px 0px 10px #191919"
       }
     },
   },
