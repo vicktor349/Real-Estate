@@ -1,4 +1,3 @@
-import Image from "next/image";
 import localFont from "next/font/local";
 import Head from "next/head";
 import HeroSection from "@/components/HeroSection";
