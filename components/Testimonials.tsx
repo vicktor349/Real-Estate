@@ -61,17 +61,26 @@ const Testimonials: React.FC = () => {
                     {[...Array(visibleCount)].map((_, offset) => {
                         const index = (currentIndex + offset) % testimonialData.length;
                         const testimonial = testimonialData[index]
+                        let message;
+
+                        if (offset === 0) {
+                            message = 'Exceptional Service!';
+                        } else if (offset === 1) {
+                            message = 'Efficient and Reliable';
+                        } else {
+                            message = 'Trusted Advisors';
+                        }
                         return (
                             <div key={index} className="p-6 border border-linkBorder rounded-lg">
                                 <div className="flex items-center mb-4 gap-x-1">
                                     {[...Array(5)].map((_, i) => (
-                                        <div className='border border-linkBorder rounded-full h-9 w-9 flex items-center justify-center' key={i}>
+                                        <div className='border border-linkBorder rounded-full h-9 w-9 flex items-center justify-center' key={Math.floor(Math.random() * 1000)}>
                                             <FaStar color='#FFE500' className='h-4 w-4' />
                                         </div>
                                     ))}
                                 </div>
                                 <h3 className="text-xl font-semibold mb-2">
-                                    {offset === 0 ? 'Exceptional Service!' : offset === 1 ? 'Efficient and Reliable' : 'Trusted Advisors'}
+                                    {message}
                                 </h3>
                                 <p className="text-white mb-4 leading-8">{testimonial.comment}</p>
                                 <div className="flex items-center">
