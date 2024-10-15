@@ -1,6 +1,5 @@
 import React from 'react'
 import HeroBannerCard from './HeroBannerCard'
-import Image from 'next/image'
 
 const HeroSection = () => {
     return (
