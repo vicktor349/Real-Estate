@@ -74,7 +74,7 @@ const Testimonials: React.FC = () => {
                             <div key={index} className="p-6 border border-linkBorder rounded-lg">
                                 <div className="flex items-center mb-4 gap-x-1">
                                     {[...Array(5)].map((_, i) => (
-                                        <div className='border border-linkBorder rounded-full h-9 w-9 flex items-center justify-center' key={Math.floor(Math.random() * 1000)}>
+                                        <div className='border border-linkBorder rounded-full h-9 w-9 flex items-center justify-center' key={Math.floor(Math.random() * 10000) + 1}>
                                             <FaStar color='#FFE500' className='h-4 w-4' />
                                         </div>
                                     ))}
