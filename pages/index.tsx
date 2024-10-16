@@ -5,6 +5,7 @@ import Features from "@/components/Features";
 import FeaturedProperties from "@/components/FeaturedProperties";
 import Testimonials from "@/components/Testimonials";
 import FrequentlyAsked from "@/components/FrequentlyAsked";
+import Journey from "@/components/Journey";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,6 +30,7 @@ export default function Home() {
         <FeaturedProperties />
         <Testimonials />
         <FrequentlyAsked />
+        <Journey />
       </div>
     </>
   );
