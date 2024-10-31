@@ -26,6 +26,9 @@ const config: Config = {
       },
       boxShadow: {
         "shadow": "0px 0px 0px 10px #191919"
+      },
+      fontFamily: {
+        "Urbanist": "Urbanist",
       }
     },
   },
