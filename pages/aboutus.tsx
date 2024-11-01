@@ -2,7 +2,7 @@ import OurJourney from '@/components/OurJourney'
 import Head from 'next/head'
 import React from 'react'
 
-const about = () => {
+const aboutus = () => {
     return (
         <>
             <Head>
@@ -16,4 +16,4 @@ const about = () => {
     )
 }
 
-export default about
+export default aboutus
