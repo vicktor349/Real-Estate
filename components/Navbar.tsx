@@ -46,7 +46,7 @@ const Navbar = () => {
                     <Link href="/" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
                         Home
                     </Link>
-                    <Link href="/about" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/about') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
+                    <Link href="/about" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/aboutus') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
                         About Us
                     </Link>
                     <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-xl flex items-center justify-center'>
@@ -74,7 +74,7 @@ const Navbar = () => {
                             isOpen &&
                             <div className='text-white navbar w-[200px] flex flex-col z-[9999] p-2 rounded-lg'>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/" onClick={closeMobileMenu}>Home</Link>
-                                <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/about" onClick={closeMobileMenu}>About Us</Link>
+                                <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/aboutus" onClick={closeMobileMenu}>About Us</Link>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="#" onClick={closeMobileMenu}>Properties</Link>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="#" onClick={closeMobileMenu}>Services</Link>
                                 <Link className='bg-buttonBackground p-3 rounded-md text-center border border-linkBorder mt-2 font-semibold' href="#" onClick={closeMobileMenu}>Contact Us</Link>
