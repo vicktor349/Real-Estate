@@ -17,7 +17,8 @@ const config: Config = {
         "gradientBackground": "linear-gradient(238deg, #2A213F 8.76%, rgba(25, 25, 25, 0.00) 50.09%), url('/images/herobannerimage.svg') lightgray 50% / cover no-repeat;"
       },
       borderColor: {
-        "linkBorder": "var(--Grey-15, #262626)"
+        "linkBorder": "var(--Grey-15, #262626)",
+        "borderColor": "var(--Purple-60, #703BF7)"
       },
       screens: {
         "3xl": "1736px",
@@ -25,7 +26,8 @@ const config: Config = {
         "sssm:": "360px"
       },
       boxShadow: {
-        "shadow": "0px 0px 0px 10px #191919"
+        "shadow": "0px 0px 0px 10px #191919",
+        "valueShadow": "0px 0px 0px 8px #191919;"
       },
       fontFamily: {
         "Urbanist": "Urbanist",
