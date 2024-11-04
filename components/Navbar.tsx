@@ -46,7 +46,7 @@ const Navbar = () => {
                     <Link href="/" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
                         Home
                     </Link>
-                    <Link href="/about" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/aboutus') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
+                    <Link href="/aboutus" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/aboutus') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
                         About Us
                     </Link>
                     <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-xl flex items-center justify-center'>
