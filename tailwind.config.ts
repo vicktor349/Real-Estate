@@ -14,6 +14,7 @@ const config: Config = {
         "linkBackground": "var(--Grey-08, #141414)",
         "background": "var(--Grey-15, #262626)",
         "secondaryButtonBackground": "var(--Purple-60, #703BF7)",
+        "navigateBackground": "linear-gradient(121deg, #703BF7 -49.01%, rgba(112, 59, 247, 0.00) 13.65%);",
         "gradientBackground": "linear-gradient(238deg, #2A213F 8.76%, rgba(25, 25, 25, 0.00) 50.09%), url('/images/herobannerimage.svg') lightgray 50% / cover no-repeat;"
       },
       borderColor: {
