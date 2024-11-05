@@ -1,3 +1,4 @@
+import Navigating from '@/components/Navigating'
 import OurAchievement from '@/components/OurAchievement'
 import OurJourney from '@/components/OurJourney'
 import OurValues from '@/components/OurValues'
@@ -14,6 +15,7 @@ const aboutus = () => {
                 <OurJourney />
                 <OurValues />
                 <OurAchievement />
+                <Navigating />
             </div>
         </>
     )
