@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const OurJourney = () => {
   return (
-    <div className='flex justify-between items-center mt-16 flex-col-reverse lg:flex-row'>
+    <div className='flex lg:justify-between lg:items-center mt-16 flex-col-reverse lg:flex-row'>
       <div className='grid gap-y-2'>
         <div className='flex items-center gap-x-4'>
           <PiStarFourFill color='#666666' size={30} />
