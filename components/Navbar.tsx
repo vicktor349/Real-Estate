@@ -13,23 +13,31 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
     const mobileRef = useRef<HTMLDivElement | null>(null)
+    const toggleButtonRef = useRef<HTMLDivElement | null>(null);
+
     useEffect(() => {
         const handleClickOutside = (e: MouseEvent) => {
-            if (mobileRef.current && !mobileRef.current.contains(e.target as Node)) {
+            // Check if click is outside both the menu AND the toggle button
+            if (
+                mobileRef.current &&
+                !mobileRef.current.contains(e.target as Node) &&
+                toggleButtonRef.current &&
+                !toggleButtonRef.current.contains(e.target as Node)
+            ) {
                 setIsOpen(false);
             }
         }
+
         if (isOpen) {
             document.addEventListener("mousedown", handleClickOutside);
         } else {
             document.removeEventListener("mousedown", handleClickOutside);
         }
 
-        // Clean up the event listener on component unmount
         return () => {
             document.removeEventListener("mousedown", handleClickOutside);
         };
-    }, [isOpen])
+    }, [isOpen]);
 
     const closeMobileMenu = () => {
         setIsOpen(false)
@@ -60,7 +68,7 @@ const Navbar = () => {
                 <div className='hidden lg:flex items-center justify-center bg-buttonBackground py-4 px-6 rounded-md border-linkBorder border'>
                     <Link href="#">Contact Us</Link>
                 </div>
-                <div className="relative lg:hidden w-6 h-6 overflow-hidden" onClick={toggleMenu}>
+                <div className="relative lg:hidden w-6 h-6 overflow-hidden" onClick={toggleMenu} ref={toggleButtonRef}>
                     <div className={`absolute inset-0 transition-transform duration-300 ${isOpen ? 'rotate-180 scale-0' : 'rotate-0 scale-100'}`}>
                         <HiMiniBars3BottomRight className="w-full h-full" />
                     </div>
