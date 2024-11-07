@@ -32,6 +32,9 @@ const config: Config = {
       },
       fontFamily: {
         "Urbanist": "Urbanist",
+      },
+      colors: {
+        'secondaryColor': 'var(--Grey-60, #999)'
       }
     },
   },
