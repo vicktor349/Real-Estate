@@ -61,7 +61,7 @@ const ValuedClientCard = ({ year, domain, category, speech, client }: ValuedClie
 
 const ValuedClient = () => {
     return (
-        <div className='grid lg:grid-cols-2 gap-12'>
+        <div className='grid lg:grid-cols-2 gap-12 mt-20 sm:mt-32'>
             <ValuedClientCard year={2019} domain='Commercial Real Estate' category='Luxury Home Development' client='ABC Corporation' speech="Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs." />
             <ValuedClientCard year={2019} domain='Commercial Real Estate' category='Luxury Home Development' client='ABC Corporation' speech="Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs." />
         </div>
