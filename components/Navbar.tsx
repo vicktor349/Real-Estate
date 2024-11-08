@@ -57,7 +57,7 @@ const Navbar = () => {
                     <Link href="/aboutus" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/aboutus') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
                         About Us
                     </Link>
-                    <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-xl flex items-center justify-center'>
+                    <Link href="/properties" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/properties') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
                         Properties
                     </Link>
                     <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-xl flex items-center justify-center'>
@@ -68,7 +68,7 @@ const Navbar = () => {
                 <div className='hidden lg:flex items-center justify-center bg-buttonBackground py-4 px-6 rounded-md border-linkBorder border'>
                     <Link href="#">Contact Us</Link>
                 </div>
-                <div className="relative lg:hidden w-6 h-6 overflow-hidden" onClick={toggleMenu} ref={toggleButtonRef}>
+                <div className="relative lg:hidden w-6 h-6 overflow-hidden hover:cursor-pointer" onClick={toggleMenu} ref={toggleButtonRef}>
                     <div className={`absolute inset-0 transition-transform duration-300 ${isOpen ? 'rotate-180 scale-0' : 'rotate-0 scale-100'}`}>
                         <HiMiniBars3BottomRight className="w-full h-full" />
                     </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
                             <div className='text-white navbar w-[200px] flex flex-col z-[9999] p-2 rounded-lg'>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/" onClick={closeMobileMenu}>Home</Link>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/aboutus" onClick={closeMobileMenu}>About Us</Link>
-                                <Link className='hover:bg-buttonBackground p-3 rounded-md' href="#" onClick={closeMobileMenu}>Properties</Link>
+                                <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/properties" onClick={closeMobileMenu}>Properties</Link>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="#" onClick={closeMobileMenu}>Services</Link>
                                 <Link className='bg-buttonBackground p-3 rounded-md text-center border border-linkBorder mt-2 font-semibold' href="#" onClick={closeMobileMenu}>Contact Us</Link>
                             </div>
