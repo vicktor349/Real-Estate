@@ -2,6 +2,7 @@ import Navigating from '@/components/Navigating'
 import OurAchievement from '@/components/OurAchievement'
 import OurJourney from '@/components/OurJourney'
 import OurValues from '@/components/OurValues'
+import StartJourney from '@/components/StartJourney'
 import Team from '@/components/Team'
 import ValuedClient from '@/components/ValuedClient'
 import Head from 'next/head'
@@ -20,6 +21,7 @@ const aboutus = () => {
                 <Navigating />
                 <Team />
                 <ValuedClient />
+                <StartJourney />
             </div>
         </>
     )
