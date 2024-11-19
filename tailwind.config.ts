@@ -15,7 +15,8 @@ const config: Config = {
         "background": "var(--Grey-15, #262626)",
         "secondaryButtonBackground": "var(--Purple-60, #703BF7)",
         "navigateBackground": "linear-gradient(121deg, #703BF7 -49.01%, rgba(112, 59, 247, 0.00) 13.65%);",
-        "gradientBackground": "linear-gradient(238deg, #2A213F 8.76%, rgba(25, 25, 25, 0.00) 50.09%), url('/images/herobannerimage.svg') lightgray 50% / cover no-repeat;"
+        "gradientBackground": "linear-gradient(238deg, #2A213F 8.76%, rgba(25, 25, 25, 0.00) 50.09%), url('/images/herobannerimage.svg') lightgray 50% / cover no-repeat;",
+        "propertyBackground": "linear-gradient(96deg, #262626 -26.82%, rgba(38, 38, 38, 0.00) 40.46%)"
       },
       borderColor: {
         "linkBorder": "var(--Grey-15, #262626)",
@@ -24,6 +25,7 @@ const config: Config = {
       screens: {
         "3xl": "1736px",
         "ssm": "480px",
+        "540px": "540px",
         "sssm:": "360px"
       },
       boxShadow: {
