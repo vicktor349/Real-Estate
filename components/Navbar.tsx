@@ -60,7 +60,7 @@ const Navbar = () => {
                     <Link href="/properties" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/properties') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
                         Properties
                     </Link>
-                    <Link href="#" className='px-7 py-4 border-2 border-transparent hover:bg-linkBackground hover:border-linkBorder rounded-xl flex items-center justify-center'>
+                    <Link href="/services" className={`px-7 py-4 border rounded-xl flex items-center border-transparent justify-center ${activeColor('/services') ? 'bg-linkBackground border-linkBorder border-2' : 'hover:bg-linkBackground hover:border-linkBorder'}`}>
                         Services
                     </Link>
                 </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/" onClick={closeMobileMenu}>Home</Link>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/aboutus" onClick={closeMobileMenu}>About Us</Link>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/properties" onClick={closeMobileMenu}>Properties</Link>
-                                <Link className='hover:bg-buttonBackground p-3 rounded-md' href="#" onClick={closeMobileMenu}>Services</Link>
+                                <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/services" onClick={closeMobileMenu}>Services</Link>
                                 <Link className='bg-buttonBackground p-3 rounded-md text-center border border-linkBorder mt-2 font-semibold' href="#" onClick={closeMobileMenu}>Contact Us</Link>
                             </div>
                         }
