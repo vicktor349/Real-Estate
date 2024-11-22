@@ -12,7 +12,7 @@ const StartJourney = () => {
                         <p>with our team for personalized assistance.</p>
                     </section>
                 </div>
-                <div className='w-full md:col-span-4 ml-auto sm:mt-0'>
+                <div className='w-full md:w-fit md:col-span-4 ml-auto sm:mt-0'>
                     <button className='bg-secondaryButtonBackground px-6 py-4 text-white rounded-lg whitespace-nowrap w-full'>Explore Properties</button>
                 </div>
             </div>
