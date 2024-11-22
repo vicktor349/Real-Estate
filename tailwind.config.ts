@@ -36,7 +36,8 @@ const config: Config = {
         "Urbanist": "Urbanist",
       },
       colors: {
-        'secondaryColor': 'var(--Grey-60, #999)'
+        'secondaryColor': 'var(--Grey-60, #999)',
+        'placeholderColor': 'var(--Grey-40, #666)'
       }
     },
   },
