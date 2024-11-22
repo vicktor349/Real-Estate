@@ -5,18 +5,20 @@ import Button from './Button'
 const MakeItHappen = () => {
     return (
         <div className='px-5 md:px-8 lg:px-12 xl:px-28 2xl:px-36 3xl:px-40 grid gap-y-10 sm:gap-y-20 mt-10'>
-            <div className='flex items-center gap-x-4'>
-                <PiStarFourFill color='#666666' size={30} />
-                <PiStarFourFill color='#666666' size={18} />
-                <PiStarFourFill color='#666666' size={8} />
-            </div>
-            <h6 className='text-3xl sm:text-5xl text-white my-5'>Let's Make it Happen</h6>
-            <div className='flex items-center justify-between gap-x-7 xl:gap-x-0'>
-                <div className='grid gap-y-1'>
-                    <p className='text-[#999999]'>Ready to take the first step toward your dream property?
-                        Fill out the form below, and our real estate wizards will work their magic to find
-                        your perfect match. Don't wait; let's embark on this exciting journey together.
-                    </p>
+            <div>
+                <div className='flex items-center gap-x-4'>
+                    <PiStarFourFill color='#666666' size={30} />
+                    <PiStarFourFill color='#666666' size={18} />
+                    <PiStarFourFill color='#666666' size={8} />
+                </div>
+                <h6 className='text-3xl sm:text-5xl text-white my-5'>Let's Make it Happen</h6>
+                <div className='flex items-center justify-between gap-x-7 xl:gap-x-0'>
+                    <div className='grid gap-y-1'>
+                        <p className='text-[#999999]'>Ready to take the first step toward your dream property?
+                            Fill out the form below, and our real estate wizards will work their magic to find
+                            your perfect match. Don't wait; let's embark on this exciting journey together.
+                        </p>
+                    </div>
                 </div>
             </div>
             {/* FORM */}
