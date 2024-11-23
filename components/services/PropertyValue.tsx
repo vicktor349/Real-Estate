@@ -29,7 +29,7 @@ const PropertyValue = () => {
                 <PropertyValueCard src='/images/services/marketing.png' text='Strategic Marketing' content='Selling a property requires more than just a listing; it demands a strategic marketing approach.' />
                 <PropertyValueCard src='/images/services/wizardry.png' text='Negotiation Wizardry' content='Negotiating the best deal is an art, and our negotiation experts are masters of it.' />
                 <PropertyValueCard src='/images/services/success.png' text='Closing Success' content='A successful sale is not complete until the closing. We guide you through the intricate closing process.' />
-                <Banner className='sm:col-span-2' />
+                <Banner title='Unlock the Value of Your Property Today' text='Ready to unlock the true value of your property? Explore our Property Selling Service categories and let us help you achieve the best deal possible for your valuable asset.' className='sm:col-span-2' />
             </div>
         </div>
     )
