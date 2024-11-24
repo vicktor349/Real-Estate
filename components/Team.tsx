@@ -1,16 +1,12 @@
 import React from 'react'
-import { PiStarFourFill } from 'react-icons/pi'
 import TeamCard from './TeamCard'
+import Star from './Star'
 
 const Team = () => {
     return (
         <div className='flex mt-20 sm:mt-32 flex-col gap-x-2'>
             <div>
-                <div className='flex items-center gap-x-4'>
-                    <PiStarFourFill color='#666666' size={30} />
-                    <PiStarFourFill color='#666666' size={18} />
-                    <PiStarFourFill color='#666666' size={8} />
-                </div>
+                <Star />
                 <h6 className='text-3xl sm:text-5xl text-white my-5'>Navigating the Estatein Experience</h6>
                 <p className='text-[#999] leading-6 sm:leading-7 w-full text-sm sm:text-base'>
                     At Estatein, we've designed a straightforward process to help you find and purchase your dream property with ease.

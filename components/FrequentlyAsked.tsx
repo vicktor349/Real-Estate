@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import frequentlyaskedData from '@/data/faqs';
 import { IoArrowBackSharp, IoArrowForwardOutline } from 'react-icons/io5';
-import { PiStarFourFill } from 'react-icons/pi';
+import Star from './Star';
 
 const FrequentlyAsked = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -42,11 +42,7 @@ const FrequentlyAsked = () => {
     return (
         <div className="text-white px-5 md:px-8 lg:px-12 xl:px-28 2xl:px-36 3xl:px-40 grid gap-y-10 sm:gap-y-20 mt-10">
             <div className="grid gap-y-10">
-                <div className='flex items-center gap-x-4'>
-                    <PiStarFourFill color='#666666' size={30} />
-                    <PiStarFourFill color='#666666' size={18} />
-                    <PiStarFourFill color='#666666' size={8} />
-                </div>
+                <Star />
                 <div className='flex items-center justify-between gap-x-7 xl:gap-x-0'>
                     <div className='grid gap-y-1'>
                         <p className='text-white text-3xl'>Frequently Asked Questions</p>

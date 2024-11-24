@@ -2,12 +2,12 @@ import Dropdown from '@/components/Dropdown'
 import FeaturedPropertiesCard from '@/components/FeaturedPropertiesCard'
 import MakeItHappen from '@/components/MakeItHappen'
 import SearchInput from '@/components/SearchInput'
+import Star from '@/components/Star'
 import StartJourney from '@/components/StartJourney'
 import Head from 'next/head'
 import React from 'react'
 import { FaCalendarDays, FaHouseChimney, FaLocationPin, FaMoneyBills } from 'react-icons/fa6'
 import { FiBox } from 'react-icons/fi'
-import { PiStarFourFill } from 'react-icons/pi'
 import { SlLocationPin } from 'react-icons/sl'
 
 const properties = () => {
@@ -85,11 +85,7 @@ const properties = () => {
         </div>
         <div className='mx-5 md:mx-8 lg:mx-12 xl:mx-28 2xl:mx-36 3xl:mx-40 grid gap-y-10 sm:gap-y-20 mt-24'>
           <div>
-            <div className='flex items-center gap-x-4'>
-              <PiStarFourFill color='#666666' size={30} />
-              <PiStarFourFill color='#666666' size={18} />
-              <PiStarFourFill color='#666666' size={8} />
-            </div>
+            <Star />
             <h6 className='text-3xl sm:text-5xl text-white my-5'>Discover a World of Possibilities</h6>
             <div className='flex items-center justify-between gap-x-7 xl:gap-x-0'>
               <div className='grid gap-y-1'>

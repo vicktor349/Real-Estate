@@ -1,16 +1,12 @@
 import React from 'react'
-import { PiStarFourFill } from 'react-icons/pi'
 import OurValuesCard from './OurValuesCard'
+import Star from './Star'
 
 const OurValues = () => {
     return (
         <div className='flex justify-between xl:items-center mt-20 sm:mt-32 flex-col xl:flex-row gap-x-2'>
             <div className='grid gap-y-2'>
-                <div className='flex items-center gap-x-4'>
-                    <PiStarFourFill color='#666666' size={30} />
-                    <PiStarFourFill color='#666666' size={18} />
-                    <PiStarFourFill color='#666666' size={8} />
-                </div>
+                <Star />
                 <h6 className='text-3xl sm:text-5xl text-white my-5'>Our Values</h6>
                 <p className='text-[#999] leading-6 sm:leading-7 w-full text-sm sm:text-base'>
                     Our story is one of continuous growth and evolution. We<br />

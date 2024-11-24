@@ -1,17 +1,13 @@
 import React from 'react'
-import { PiStarFourFill } from 'react-icons/pi'
 import HeroBannerCard from './HeroBannerCard'
 import Image from 'next/image'
+import Star from './Star'
 
 const OurJourney = () => {
   return (
     <div className='flex lg:justify-between lg:items-center mt-16 flex-col-reverse lg:flex-row'>
       <div className='grid gap-y-2'>
-        <div className='flex items-center gap-x-4'>
-          <PiStarFourFill color='#666666' size={30} />
-          <PiStarFourFill color='#666666' size={18} />
-          <PiStarFourFill color='#666666' size={8} />
-        </div>
+        <Star />
         <h6 className='text-3xl sm:text-5xl text-white my-5'>Our Journey</h6>
         <p className='text-[#999] leading-7'>
           Our story is one of continuous growth and evolution. We started as a small team with big dreams, <br />
