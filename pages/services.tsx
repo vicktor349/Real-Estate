@@ -1,6 +1,7 @@
 import Features from '@/components/Features'
 import PropertyManagement from '@/components/services/PropertyManagement'
 import PropertyValue from '@/components/services/PropertyValue'
+import SmartInvestment from '@/components/services/SmartInvestment'
 import Head from 'next/head'
 import React from 'react'
 
@@ -22,6 +23,7 @@ const services = () => {
                 <div className='px-5 md:px-8 lg:px-12 xl:px-28 2xl:px-36 3xl:px-40'>
                     <PropertyValue />
                     <PropertyManagement />
+                    <SmartInvestment />
                 </div>
             </div>
         </>
