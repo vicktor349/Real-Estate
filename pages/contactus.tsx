@@ -1,7 +1,9 @@
 import Button from '@/components/Button'
 import Directions from '@/components/contact/Directions'
+import Gallery from '@/components/contact/Gallery'
 import FeaturesCard from '@/components/FeaturesCard'
 import Star from '@/components/Star'
+import StartJourney from '@/components/StartJourney'
 import Head from 'next/head'
 import React from 'react'
 
@@ -149,6 +151,8 @@ const contactus = () => {
                         />
                     </div>
                 </div>
+                <Gallery />
+                <StartJourney />
             </div>
         </div>
     )
