@@ -66,7 +66,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='hidden lg:flex items-center justify-center bg-buttonBackground py-4 px-6 rounded-md border-linkBorder border'>
-                    <Link href="#">Contact Us</Link>
+                    <Link href="/contactus">Contact Us</Link>
                 </div>
                 <div className="relative lg:hidden w-6 h-6 overflow-hidden hover:cursor-pointer" onClick={toggleMenu} ref={toggleButtonRef}>
                     <div className={`absolute inset-0 transition-transform duration-300 ${isOpen ? 'rotate-180 scale-0' : 'rotate-0 scale-100'}`}>
@@ -85,7 +85,7 @@ const Navbar = () => {
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/aboutus" onClick={closeMobileMenu}>About Us</Link>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/properties" onClick={closeMobileMenu}>Properties</Link>
                                 <Link className='hover:bg-buttonBackground p-3 rounded-md' href="/services" onClick={closeMobileMenu}>Services</Link>
-                                <Link className='bg-buttonBackground p-3 rounded-md text-center border border-linkBorder mt-2 font-semibold' href="#" onClick={closeMobileMenu}>Contact Us</Link>
+                                <Link className='bg-buttonBackground p-3 rounded-md text-center border border-linkBorder mt-2 font-semibold' href="/contactus" onClick={closeMobileMenu}>Contact Us</Link>
                             </div>
                         }
                     </div>
