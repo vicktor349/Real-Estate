@@ -2,6 +2,7 @@ import Features from '@/components/Features'
 import PropertyManagement from '@/components/services/PropertyManagement'
 import PropertyValue from '@/components/services/PropertyValue'
 import SmartInvestment from '@/components/services/SmartInvestment'
+import StartJourney from '@/components/StartJourney'
 import Head from 'next/head'
 import React from 'react'
 
@@ -24,6 +25,9 @@ const services = () => {
                     <PropertyValue />
                     <PropertyManagement />
                     <SmartInvestment />
+                    <div className='my-20'>
+                        <StartJourney />
+                    </div>
                 </div>
             </div>
         </>
