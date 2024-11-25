@@ -25,75 +25,75 @@ const MakeItHappen = () => {
                         <label htmlFor="firstname" className='text-white'>First Name</label>
                         <input type="text" name="firstname" id="firstname"
                             placeholder='Enter First Name'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     {/* LAST NAME */}
                     <div className='flex flex-col'>
                         <label htmlFor="lastname" className='text-white'>Last Name</label>
                         <input type="text" name="firstname" id="firstname"
                             placeholder='Enter Last Name'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     {/* EMAIL */}
                     <div className='flex flex-col'>
                         <label htmlFor="email" className='text-white'>Email</label>
                         <input type="email" name="email" id="email"
                             placeholder='Enter Your Email'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     {/* PHONE NUMBER */}
                     <div className='flex flex-col'>
                         <label htmlFor="phone" className='text-white'>Phone</label>
                         <input type="tel" name="phone" id="phone"
                             placeholder='Enter Phone Number'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     {/* Preferred Location */}
                     <div className='flex flex-col'>
                         <label htmlFor="location" className='text-white'>Preferred Location</label>
                         <input type="text" name="preferredlocation" id="preferredlocation"
                             placeholder='Select Location'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     {/* Property Type */}
                     <div className='flex flex-col'>
                         <label htmlFor="property" className='text-white'>Property Type</label>
                         <input type="text" name="property" id="property"
                             placeholder='Select Location'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     {/* No of Bathrooms */}
                     <div className='flex flex-col'>
                         <label htmlFor="bathrooms" className='text-white'>No. of Bathrooms</label>
                         <input type="text" name="bathrooms" id="bathrooms"
                             placeholder='Select Location'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     {/* No of Bedrooms */}
                     <div className='flex flex-col'>
                         <label htmlFor="bedrooms" className='text-white'>No. of Bedrooms</label>
                         <input type="text" name="bedrooms" id="bedrooms"
                             placeholder='Select Location'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     {/* Budget */}
                     <div className='flex flex-col xl:col-span-2'>
                         <label htmlFor="budget" className='text-white'>Budget</label>
                         <input type="text" name="budget" id="budget"
                             placeholder='Select Location'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     {/* Budget */}
                     <div className='flex flex-col'>
                         <label htmlFor="budget" className='text-white'>Preferred Contact Method</label>
                         <input type="tel" name="contactnumber" id="contactnumber"
                             placeholder='Enter Your Number'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 mt-3 w-full' />
                     </div>
                     <div className='flex flex-col'>
                         <input type="tel" name="contactemail" id="contactemail"
                             placeholder='Enter Your Email'
-                            className='text-white border border-linkBorder bg-primaryBackground h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 sm:mt-9 w-full' />
+                            className='text-white border border-linkBorder bg-primaryBackground h-[52px] sm:h-[68px] outline-none rounded-lg placeholder:text-placeholderColor px-5 sm:mt-9 w-full' />
                     </div>
                     <div className='flex flex-col md:col-span-2 lg:col-span-3 xl:col-span-4'>
                         <label htmlFor="message" className='text-white'>Message</label>
@@ -119,7 +119,7 @@ const MakeItHappen = () => {
                                     checked:before:text-white
                                     checked:before:text-sm"
                             />
-                            <label htmlFor="agreement" className='text-secondaryColor select-none hover:cursor-pointer'>I agree with Terms of Use and Privacy Policy</label>
+                            <label htmlFor="agreement" className='text-secondaryColor select-none hover:cursor-pointer text-sm sm:text-base'>I agree with Terms of Use and Privacy Policy</label>
                         </section>
                         <Button text='Send Your Message' className='px-10 py-4 w-full flex items-center justify-center md:w-fit' />
                     </div>
